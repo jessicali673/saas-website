@@ -87,17 +87,14 @@ body {
 }
 
 .sign-img {
-  width: 200px;
-  max-width: 500px;
-  align-items: center;
-  margin: auto;
+  display: none;
 }
 
 .sign-banner-content {
   max-width: 25em;
+  margin-top: 10px;
   color: #fff;
-  align-items: center;
-  margin: auto;
+  align-items: left;
 }
 
 
@@ -167,7 +164,11 @@ body {
   }
 
   .sign-img {
+    display: block;
     width: 250px;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
   }
 
 }
