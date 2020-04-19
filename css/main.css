@@ -70,6 +70,26 @@ body {
   background-color: #1C232E;
 }
 
+.banner {
+  height: 70%;
+  position: relative;
+}
+
+.banner-content {
+  max-width: 30em;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  margin-top: 30px;
+}
+
+
+
+
+
 @media only screen and (min-width: 25em) {
 
   nav {
@@ -97,6 +117,11 @@ body {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .header-nav {
     flex-wrap: nowrap;
   }
@@ -109,9 +134,36 @@ body {
     justify-content: space-around;
   }
 
+  .banner {
+    height: 70%;
+    position: relative;
+  }
+
+  .banner-content {
+    max-width: 30em;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .home-img {
+    opacity: 0.5;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  figcaption {
+    font-size: .875rem;
+  }
 
   .header-nav {
     width: 50%;
@@ -127,7 +179,27 @@ body {
     align-items: flex-end;
   }
 
+  .banner {
+    height: 70%;
+    position: relative;
+  }
+
+  .banner-content {
+    max-width: 30em;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
 
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
