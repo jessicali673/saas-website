@@ -111,11 +111,14 @@ body {
   margin: auto;
 }
 
-.icons p {
-  max-width: 6em;
+.icons {
   text-align: center;
+  color: #fff;
 }
 
+hr {
+  margin-top: 70px;
+}
 
 
 
