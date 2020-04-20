@@ -111,6 +111,11 @@ body {
   margin: auto;
 }
 
+.icons p {
+  max-width: 6em;
+  text-align: center;
+}
+
 
 
 
