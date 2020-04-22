@@ -158,8 +158,13 @@ th, td {
   text-align: center;
 }
 
+td {
+  color:#B1DBFF;
+}
+
 th {
   border-bottom: 1px solid #B1DBFF;
+  color:#fff;
 }
 
 
