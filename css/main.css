@@ -133,6 +133,29 @@ footer img {
   width: 200px;
 }
 
+main h2 {
+  text-align: center;
+  color: white;
+}
+
+table {
+  border: 1px solid #1C232E;
+  border-collapse: collapse;
+  margin: 50px;
+  margin-top: 80px;
+}
+
+th, td {
+  border: 1px solid #1C232E;
+  padding: 0.75em;
+  color: #fff;
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid #B1DBFF;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -203,6 +226,10 @@ footer img {
 
   .light-img {
     margin-top: 10px;
+  }
+
+  .umbrella-img {
+    display: none;
   }
 
 }
