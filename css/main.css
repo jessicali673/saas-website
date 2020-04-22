@@ -3,68 +3,62 @@ html {
   background-color: #1c232e;
 }
 
-.logo {
-  width: 100%;
-  max-width: 250px;
-  margin: 0;
+.skip-links a {
+  position: absolute;
+  top: -3em;
 }
 
-.header-nav {
-  list-style-type: none;
+.skip-links a:focus {
+  top: 0;
 }
 
-.header-nav ul {
-  padding: 0;
-  margin: auto;
-  white-space: nowrap;
+a:focus {
+  outline: 3px solid #000;
 }
 
-.header-nav li {
-  width: 100%;
-  white-space: nowrap;
-  text-align: center;
-}
 
-.header-nav a {
-  text-align: center;
+.masthead {
+  background-color: #1c232e;
   color: #fff;
-  display: block;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-text {
+  display: inline-block;
+  width: 9em;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
   text-decoration: none;
-  padding: .2em .75em;
-  white-space: nowrap;
 }
 
-.header-nav a:hover {
-  color: #b1dbff;
-  border-radius: 8px;
+
+.nav a span {
+  border-bottom: .2rem solid #b1dbff;
 }
 
-.sign-up {
+.nav a:hover span,
+.nav a:focus span {
+  border-bottom-color: #1c232e;
+  color: #fff;
   background-color: #1c232e;
 }
 
 .banner {
-  height: 70%;
-}
-
-.banner-content {
-  max-width: 30em;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  width: 100%;
+  min-height: 16em;
   color: #fff;
-  margin-top: 30px;
 }
 
-.sign-img {
-  display: none;
-}
-
-.sign-banner-content {
-  max-width: 25em;
-  margin-top: 10px;
-  color: #fff;
+.home-img {
+  opacity: .5;
 }
 
 .light-content {
@@ -92,10 +86,25 @@ form {
   color: #fff;
 }
 
+.sign-btn {
+  background-color: #1c232e;
+  border-color: #1c232e;
+  border-radius: 4px;
+  color: #fff;
+}
+
 .btn {
   color: #1c232e;
   background-color: #b1dbff;
   border: 4px solid #b1dbff;
+}
+
+.sign-banner-content h2 {
+  color: #b1dbff;
+}
+
+.sign-banner-content p {
+  color: #fff;
 }
 
 hr {
