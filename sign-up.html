@@ -14,6 +14,11 @@
 </head>
 <body>
 
+  <ul class="skip-links" id="skip-links" tabindex="0">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header role="banner">
     <div class="masthead grid grid-middle gutter">
       <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
@@ -43,42 +48,42 @@
         </div>
       </div>
     </section>
-  </main>
 
-  <section class="form island pad-t-2 pad-b-2">
-    <div class="grid">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <img class="sign-img img-flex" src="images/lightbulb.svg" alt="illustration" aria-details="#image">
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <div class="sign-banner-content">
-          <h2 class="tera">Get Started with CalicoHR</h2>
-          <p>Start your one-month free trial now. No payment information needed, all you have to do is sign up! </p>
+    <section class="form island pad-t-2 pad-b-2">
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <img class="sign-img img-flex" src="images/lightbulb.svg" alt="illustration" aria-details="#image">
         </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="sign-banner-content">
+            <h2 class="tera">Get Started with CalicoHR</h2>
+            <p>Start your one-month free trial now. No payment information needed, all you have to do is sign up! </p>
+          </div>
 
-        <form role="search" id="search" class="push-r giga" method="POST" action="https://formspree.io/msjj22@outlook.com">
-          <div class="push">
-            <label for="name">Name</label>
-            <input id="name" name="name" required>
-          </div>
-          <div class="push">
-            <label for="email">Your email</label>
-            <input id="email" type="email" placeholder="me@me.com" required>
-          </div>
-          <div class="push">
-            <label for="pass">Password</label>
-            <input id="pass" type="password" required>
-          </div>
-          <div>
-            <button class="btn btn-light mega bold" type="submit">Sign Up</button>
-          </div>
-        </form>
+          <form role="search" id="search" class="push-r giga" method="POST" action="https://formspree.io/msjj22@outlook.com">
+            <div class="push">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
+            <div class="push">
+              <label for="email">Your email</label>
+              <input id="email" type="email" placeholder="me@me.com" required>
+            </div>
+            <div class="push">
+              <label for="pass">Password</label>
+              <input id="pass" type="password" required>
+            </div>
+            <div>
+              <button class="btn btn-light mega bold" type="submit">Sign Up</button>
+            </div>
+          </form>
 
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <hr class="push-2 pad-t" style="height:2px;border-top:3px solid #B1DBFF">
+    <hr class="push-2 pad-t" style="height:2px;border-top:3px solid #B1DBFF">
+  </main>
 
   <footer role="contentinfo" class="wrapper max-length gutter">
 
@@ -103,11 +108,10 @@
         </ul>
       </div>
 
-      <div class="grid">
-        <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
-          <img src="images/socials.svg" alt="socials logo" aria-details="image">
-        </div>
+      <div class="unit xs-1 s-1-2 m-1-3 l-1-3">
+        <img src="images/socials.svg" alt="socials logo" aria-details="image">
       </div>
+
     </div>
 
   </footer>

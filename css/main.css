@@ -3,9 +3,19 @@ html {
   background-color: #1c232e;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .skip-links a {
   position: absolute;
   top: -3em;
+  background-color: #000;
+  color: #fff;
+  padding: .5em .75em;
+  text-decoration: none;
 }
 
 .skip-links a:focus {
@@ -15,7 +25,6 @@ html {
 a:focus {
   outline: 3px solid #000;
 }
-
 
 .masthead {
   background-color: #1c232e;
@@ -38,18 +47,18 @@ a:focus {
 .nav a {
   color: #fff;
   text-decoration: none;
+  padding: .2em .75em;
 }
-
 
 .nav a span {
   border-bottom: .2rem solid #b1dbff;
 }
 
-.nav a:hover span,
-.nav a:focus span {
-  border-bottom-color: #1c232e;
-  color: #fff;
-  background-color: #1c232e;
+.nav a:hover {
+  color: #1c232e;
+  border-radius: 8px;
+  border-bottom-color: #fff;
+  background-color: #b1dbff;
 }
 
 .banner {
@@ -134,6 +143,10 @@ table {
   border-collapse: collapse;
   margin: 50px;
   margin-top: 80px;
+}
+
+caption {
+  color: #fff;
 }
 
 th, td {
